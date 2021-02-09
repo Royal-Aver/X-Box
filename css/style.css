@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .header {
   background: #373a3c;
-  border-bottom: 4px solid #f2f2f2;
+  border-bottom: 2px solid #777777;
 }
 
 .container {
@@ -130,4 +130,117 @@ h1, h2, h3, h4, h5, h6 {
 
 .personal__text:hover {
   opacity: 1;
+}
+
+.hero__inner {
+  width: 100%;
+  background-image: url(../img/hero/Hero-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-content {
+  margin-left: 830px;
+  padding: 206px 0 200px 0;
+}
+
+.hero__content-title {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.hero__content-text {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 134px;
+}
+
+.trailer {
+  font-size: 16px;
+  line-height: 21px;
+  color: #fff;
+  background: #8dd83d;
+  border-radius: 4px;
+  padding: 8px 22px;
+}
+
+.explore {
+  background: -webkit-gradient(linear, left top, left bottom, from(#686c6f), to(#373a3c));
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+  border-radius: 4px;
+  color: #fff;
+  padding: 8px 19px;
+}
+
+.advantages {
+  background: radial-gradient(100% 100% at 50% 0%, #686c6f 0%, #373a3c 100%);
+}
+
+.advantages__inner {
+  text-align: center;
+  padding: 64px 0 162px;
+}
+
+.advantages__logo {
+  margin-bottom: 16px;
+}
+
+.advantages-title {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.advantages-text {
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 62px;
+}
+
+.cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #8dd83d;
+  border-radius: 4px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card__img {
+  margin-bottom: 16px;
+}
+
+.card__title {
+  font-size: 18px;
+  line-height: 21px;
+  color: #435766;
+  margin-bottom: 13px;
+}
+
+.card__text {
+  font-size: 24px;
+  line-height: 28px;
+  color: #435766;
+  margin-bottom: 38px;
+}
+
+.card__link {
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  background: #8dd83d;
+  border-radius: 4px;
+  padding: 20px 0;
 }
